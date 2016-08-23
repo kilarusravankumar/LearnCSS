@@ -1,0 +1,9 @@
+{
+    "name":"LearnCss",
+    "version":"0.0.1",
+    "description":"just learning some css stuff",
+    "start":"server.js",
+    "dependencies": {
+        
+}
+}

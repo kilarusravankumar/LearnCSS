@@ -1,0 +1,63 @@
+h1{
+  color: chartreuse;
+  text-align: center;
+    font-family: monospace;
+   
+        
+}
+body{
+    background-color: black;
+}
+.form{
+    background-color: currentColor;
+    padding:10%;
+    border-radius:2%;
+}
+input[type=number],select{
+    
+    padding:1.5% 1.5%;
+    display: inline-block;
+    border:2% solid #ccc;
+    border-radius: 4%;
+    box-sizing: border-box;
+    box-shadow: 10%;
+    font-size: 15px;
+}
+input[type=number]:focus{
+    width: 100%;
+    
+}
+input[type=submit]{
+    background-color: chartreuse;
+    width:20%;
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+    font: 20px;
+    font-family: monospace;
+    
+}
+.input[type=submit] span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+input[type=submit] span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+input[type=submit]:hover span {
+  padding-right: 25px;
+}
+
+input[type=submit]:hover span:after {
+  opacity: 1;
+  right: 0;
+}
